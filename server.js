@@ -13,9 +13,15 @@ const server = http.createServer((req, res) =>{
 
 let path ='./views/';
 switch (req.url) {
-    case value:
-        
+    case '/':
+        path += 'index.html';
+        res.statusCode  = 200;
         break;
+
+        case '/about':
+            path += 'index.html';
+            res.statusCode  = 200;
+            break;
 
     default:
         break;
