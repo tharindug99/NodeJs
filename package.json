@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tharindug99/NodeJs/issues"
   },
-  "homepage": "https://github.com/tharindug99/NodeJs#readme"
+  "homepage": "https://github.com/tharindug99/NodeJs#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
